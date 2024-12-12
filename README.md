@@ -1,6 +1,6 @@
 # Chatbot_project
 
-A flask (Python) Web Interface for sentiment analysis using NLP techniques.
+A flask (Python)
 
 #### Basic Features
 
