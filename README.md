@@ -1,4 +1,4 @@
-# Sentiment Analyzer Web App
+# Chatbot_project
 
 A flask (Python) Web Interface for sentiment analysis using NLP techniques.
 
@@ -7,7 +7,7 @@ A flask (Python) Web Interface for sentiment analysis using NLP techniques.
 * Pre-process text (remove punctuation, lower case)
 * Stemming of words
 
-#### Sentiment Analysis
+#### Chatbot_project
 * Shows how much text content is positive
 
 
