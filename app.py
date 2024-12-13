@@ -16,6 +16,8 @@ nltk.download('punkt')
 # Initialize Flask app
 app = Flask(__name__)
 
+#add the way of chat when the question ask and able display on the screen 
+
 # Preprocess questions
 stop_words = set(stopwords.words('english'))
 def preprocess(text):
