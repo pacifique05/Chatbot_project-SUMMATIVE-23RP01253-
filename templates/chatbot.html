@@ -8,17 +8,24 @@
 </head>
 <body>
     <div class="container">
-        <h2>WELCOME TO THE UNIVERSITY  CHATBOT </h2>
+        <h2>WELCOME TO THE UNIVERSITY CHATBOT</h2>
+        
+        <!-- Chat Form -->
         <form method="POST">
-            <textarea name="question" placeholder="Ask me a question about the university..." rows="4"></textarea><br>
-            <button type="submit" class="btn">Submit</button>
+            <textarea name="question" placeholder="Ask me a question about the university..." rows="4" required></textarea><br>
+            <button type="submit" name="action" value="submit" class="btn">Submit</button>
+            <button type="submit" name="action" value="clear" class="btn clear">Clear Chat</button>
         </form>
-        {% if question %}
-        <div class="response">
-            <p><strong>Your Question:</strong> {{ question }}</p>
-            <p><strong>Chatbot Answer:</strong> {{ answer }}</p>
+
+        <!-- Display Chat History -->
+        <div class="chat-history">
+            {% for entry in chat_history %}
+                <div class="chat-entry">
+                    <p><strong>Question:</strong> {{ entry.question }}</p>
+                    <p><strong>Answer:</strong> {{ entry.answer }}</p>
+                </div>
+            {% endfor %}
         </div>
-        {% endif %}
     </div>
 </body>
 </html>

@@ -34,12 +34,32 @@ button {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 5px;
+}
+
+button.clear {
+    background-color: #dc3545;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-.response {
+button.clear:hover {
+    background-color: #c82333;
+}
+
+.chat-history {
     margin-top: 20px;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.chat-entry {
+    margin-bottom: 10px;
 }
