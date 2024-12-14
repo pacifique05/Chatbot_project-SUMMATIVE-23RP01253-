@@ -29,7 +29,7 @@ def chatbot():
     if 'chat_history' not in session:
         session['chat_history'] = []
 
-    if request.method == 'POST':
+    if request.method == 'POST':  #request 
         action = request.form.get('action')  # Determine which button was clicked
 
         if action == 'submit':  # When submitting a new question
