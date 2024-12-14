@@ -35,7 +35,8 @@ def chatbot():
         if action == 'submit':  # When submitting a new question
             user_question = request.form['question']
             preprocessed_user_question = preprocess(user_question)
-
+            # add 
+            
             # Combine user question with stored questions for vectorization
             corpus = [preprocessed_user_question] + list(processed_questions.values())
             
