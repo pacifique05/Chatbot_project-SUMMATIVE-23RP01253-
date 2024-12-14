@@ -90,7 +90,7 @@ QUESTIONS = {
 "Can I appeal a financial aid decision?": "Yes, you can appeal by submitting a formal request to the financial aid office.",
 "Is work-study available?": "Yes, work-study jobs are available for eligible students.",
     # International Students Questions
-   "What support services are available for international students?": "We offer orientation, language support, and cultural adjustment programs.",
+"What support services are available for international students?": "We offer orientation, language support, and cultural adjustment programs.",
 "How do I submit my TOEFL or IELTS scores?": "Submit your scores directly through the testing agency using our school code.",
 "Do you provide airport pickup for international students?": "Yes, airport pickup is available during orientation week.",
 "Can I work while studying?": "International students can work up to 20 hours per week on campus.",
@@ -101,7 +101,7 @@ QUESTIONS = {
 "Can international students apply for internships?": "Yes, internships are allowed with proper authorization from the international office.",
 "What is the process for renewing a visa?": "Contact the international office for guidance on renewing your visa.",
     # Career Services Questions
-   "What industries recruit on campus?": "Industries include tech, finance, healthcare, and education.",
+"What industries recruit on campus?": "Industries include tech, finance, healthcare, and education.",
 "How do I schedule a career counseling session?": "Schedule an appointment through the career services portal.",
 "Are mock interviews available?": "Yes, career services offer mock interview sessions.",
 "Can I get help with my resume?": "Yes, resume review services are available at the career center.",
@@ -112,7 +112,7 @@ QUESTIONS = {
 "Can I apply for internships through the university?": "Yes, internships are posted on the career services job board.",
 "Are there opportunities for co-op programs?": "Yes, co-op programs are available for select majors.",
     # Miscellaneous Questions
-    "Does the university offer childcare services?": "Yes, childcare services are available on campus.",
+"Does the university offer childcare services?": "Yes, childcare services are available on campus.",
 "Are pets allowed in dormitories?": "Only service animals are permitted in dormitories.",
 "Where can I find lost and found?": "The lost and found is located at the security office.",
 "What are the gym hours?": "The gym is open from 6:00 AM to 10:00 PM daily.",
