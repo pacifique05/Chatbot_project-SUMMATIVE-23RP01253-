@@ -55,7 +55,7 @@ QUESTIONS = {
 "How many letters of recommendation are required?": "Most programs require two to three letters of recommendation.",
 "Do you accept transfer students?": "Yes, transfer students are welcome, and transfer credits may be evaluated upon admission.",
 "Is there an interview process?": "Interviews are required for some programs and optional for others. Check program details.",
-    # Academic Programs Questions
+# Academic Programs Questions
 "How do I declare a major?": "You can declare a major by submitting a form through your academic advisor.",
 "Are minors available?": "Yes, minors are offered in many fields of study.",
 "What graduate programs do you offer?": "We offer master's and doctoral programs in various disciplines, including Engineering, Business, and Health Sciences.",
@@ -66,7 +66,7 @@ QUESTIONS = {
 "Is there an honors program?": "Yes, we have an honors program for high-achieving students.",
 "Do you have continuing education programs?": "Yes, we offer adult education and professional development courses.",
 "How do I request a transcript?": "You can request a transcript through the registrar's office or online.",
-    # Campus Life Questions
+# Campus Life Questions
 "What recreational facilities are available?": "Our campus includes a gym, swimming pool, and sports fields.",
 "Is there a campus shuttle?": "Yes, we offer a free campus shuttle service for students and staff.",
 "What events are held on campus?": "We host cultural events, guest lectures, and career fairs throughout the year.",
@@ -77,7 +77,7 @@ QUESTIONS = {
 "Can I bring my car to campus?": "Yes, students can bring their cars but must register for a parking permit.",
 "What are the rules for living in dormitories?": "Dorm rules include quiet hours, guest policies, and maintaining cleanliness.",
 "Is there a mentorship program for new students?": "Yes, we offer peer mentorship programs to help new students adjust.",
-    # Financial Aid Questions
+# Financial Aid Questions
 "What is the FAFSA school code?": "Our FAFSA school code is 123456.",
 "Can international students apply for financial aid?": "Limited financial aid is available for international students.",
 "What is the average financial aid package?": "The average package includes grants, loans, and work-study opportunities.",
@@ -88,7 +88,7 @@ QUESTIONS = {
 "When are tuition fees due?": "Tuition fees are due before the start of each semester.",
 "Can I appeal a financial aid decision?": "Yes, you can appeal by submitting a formal request to the financial aid office.",
 "Is work-study available?": "Yes, work-study jobs are available for eligible students.",
-    # International Students Questions
+# International Students Questions
 "What support services are available for international students?": "We offer orientation, language support, and cultural adjustment programs.",
 "How do I submit my TOEFL or IELTS scores?": "Submit your scores directly through the testing agency using our school code.",
 "Do you provide airport pickup for international students?": "Yes, airport pickup is available during orientation week.",
@@ -99,7 +99,7 @@ QUESTIONS = {
 "Are there language proficiency programs?": "Yes, we offer English language programs for non-native speakers.",
 "Can international students apply for internships?": "Yes, internships are allowed with proper authorization from the international office.",
 "What is the process for renewing a visa?": "Contact the international office for guidance on renewing your visa.",
-    # Career Services Questions
+# Career Services Questions
 "What industries recruit on campus?": "Industries include tech, finance, healthcare, and education.",
 "How do I schedule a career counseling session?": "Schedule an appointment through the career services portal.",
 "Are mock interviews available?": "Yes, career services offer mock interview sessions.",
@@ -110,7 +110,7 @@ QUESTIONS = {
 "What is the average starting salary for graduates?": "Starting salaries vary by field. Visit the career services website for details.",
 "Can I apply for internships through the university?": "Yes, internships are posted on the career services job board.",
 "Are there opportunities for co-op programs?": "Yes, co-op programs are available for select majors.",
-    # Miscellaneous Questions
+# Miscellaneous Questions
 "Does the university offer childcare services?": "Yes, childcare services are available on campus.",
 "Are pets allowed in dormitories?": "Only service animals are permitted in dormitories.",
 "Where can I find lost and found?": "The lost and found is located at the security office.",

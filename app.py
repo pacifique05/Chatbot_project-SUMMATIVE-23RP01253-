@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from data.questions import QUESTIONS  # Import the QUESTIONS dictionary
+from data.questions import QUESTIONS  # this is to Import the QUESTIONS dictionary
 
 # Download necessary NLTK data
 nltk.download('stopwords')
