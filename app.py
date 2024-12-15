@@ -35,7 +35,6 @@ def chatbot():
         if action == 'submit':  # When submitting a new question
             user_question = request.form['question']
             preprocessed_user_question = preprocess(user_question)
-            # add 
             
             # Combine user question with stored questions for vectorization
             corpus = [preprocessed_user_question] + list(processed_questions.values())
@@ -54,6 +53,7 @@ def chatbot():
                 response = answers[most_similar_index]
             else:
                 response = "Sorry, I don't understand that question."
+
 
             # Append question and response to chat history
             session['chat_history'].append({'question': user_question, 'answer': response})

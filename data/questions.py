@@ -1,6 +1,6 @@
 QUESTIONS = {
 # Friendly Small Talk Questions
-"What's your name?": "I'm GPT, your friendly assistant!",
+"What's your name?": "I'm Chatbot, your friendly university  assistant!",
 "Where are you from?": "I exist in the digital world, ready to assist you from anywhere!",
 "What do you do?": "I help answer questions and make your tasks easier.",
 "How old are you?": "Age doesn't matter in the digital realm, but I'm always up-to-date!",
@@ -9,9 +9,9 @@ QUESTIONS = {
 "What languages do you speak?": "I can help you in many languages, including English and more!",
 "Can we be friends?": "Absolutely! I'm here to make your experience better.",
 "Are you a real person?": "No, I'm an AI assistant created to help you.",
-"What time is it?": "It depends on your location. Check your device for the local time!"
-,
-      # General Greeting Questions
+"What time is it?": "It depends on your location. Check your device for the local time!",
+
+# General Greeting Questions
 "Hello, how are you?": "Hi there! I'm here and ready to help you.",
 "Hey?": "Hey! How can I assist you today?",
 "Good morning!": "Good morning! What can I help you with?",
@@ -21,9 +21,8 @@ QUESTIONS = {
 "How's it going?": "Everything's great! How about you?",
 "Hi, how's your day?": "It's been wonderful! How can I help make yours better?",
 "Yo!": "Yo! How can I help you today?",
-"How are you feeling today?": "I'm feeling helpful, as always! What do you need assistance with?"
-,
-    # Welcome Questions for New Students
+"How are you feeling today?": "I'm feeling helpful, as always! What do you need assistance with?",
+# Welcome Questions for New Students
 "Where do I collect my welcome kit?": "You can collect your welcome kit at the student affairs office or during orientation.",
 "Is there a welcome event for new students?": "Yes, a welcome event is held at the start of the semester. Check your email for details.",
 "How do I find my class schedule?": "You can find your schedule on the student portal or mobile app.",
@@ -45,7 +44,7 @@ QUESTIONS = {
 "How do I pay my tuition fees?": "Tuition fees can be paid online through the student portal or at the finance office.",
 "Is there a checklist for new students?": "Yes, a checklist is included in your welcome kit and on the orientation webpage.",
 
-   # Admissions Questions
+# Admissions Questions
 "How do I check my application status?": "You can check your application status on the admissions portal.",
 "Do you require SAT or ACT scores?": "Yes, SAT or ACT scores are required for most undergraduate programs.",
 "Can I apply for multiple programs?": "Yes, you can apply to multiple programs but must submit a separate application for each.",
