@@ -45,11 +45,11 @@ def chatbot():
 
             # Calculate cosine similarity
             similarities = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:])
-            most_similar_index = similarities.argsort()[0, -1]  # Index of the most similar question
+            most_similar_index = similarities.argsort()[0, -1] 
             similarity_score = similarities[0, most_similar_index]
 
             # Set a similarity threshold
-            if similarity_score > 0.5:  # Adjust threshold as needed
+            if similarity_score > 0.5:  
                 response = answers[most_similar_index]
             else:
                 response = "Sorry, I don't understand that question."
@@ -59,7 +59,7 @@ def chatbot():
             session['chat_history'].append({'question': user_question, 'answer': response})
             session.modified = True  # Mark session as modified to save changes
 
-        elif action == 'clear':  # When clearing the chat
+        elif action == 'clear':  
             session.pop('chat_history', None)  # Completely remove chat history from the session
             session.modified = True  # Mark session as modified to save changes
 
